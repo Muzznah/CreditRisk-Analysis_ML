@@ -3,7 +3,9 @@
 
 Using data from LendingClub; a peer-to-peer lending services, several machine learning models were used to assess, their relative performance to accurately predict credit risk.
 The analysis was done by cleaning the data and splitting it into Target variable(Loan status) and features(columns that served as input values to help predict the target value).
-Credit risk being an unbalanced classification problem(The ratio of good loans to risky loans being very high ), the following sampling techniques were used to train and evaluate models:
+Credit risk being an unbalanced classification problem(The ratio of good loans to risky loans being very high ), a variety of sampling techniques were used to get a balanced and representative sample, to train and evaluate models.
+
+Following sampling techniques and models were used:
 
 **1- Oversampling**</br>
 
@@ -57,3 +59,5 @@ the model that performed the best was, 'SMOTE', with relatively high F1 score (f
         -   0.056, 'total_pymnt_inv'
         
 ## Conclusion
+
+The "Easy Ensemble Adaboost", was the best performing model in this analysis and is hence recommended. However, we need to keep in mind that due to its high recall value and low precision value, it will have high False Positives, meaning many low-risk loans might get labled as high-risk as well, and will require additional time, effort and resources to vet them out. So keeping this in mind the recommended model can be used as an initial screening which can be further inspected.
