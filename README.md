@@ -22,6 +22,13 @@ Following sampling techniques and models were used:
     -Balanced Random Forest Classifier
     -Easy Ensemble AdaBoost Classifier
     
+ ## Resources
+ 
+ ### Data:
+ - [LoanStats2019Q1.csv](https://github.com/Muzznah/CreditRisk-Analysis_ML/blob/master/Challenge/Module-17-Challenge-Resources/__MACOSX/Module-17-Challenge-Resources/._LoanStats_2019Q1.csv)
+ 
+ ### Software:
+    -Python 3.8.2, Jupyter Notebook 6.0.3, numpy 1.19.1, pandas 1.0.5, scikit-learn 0.23.2, and imblearn 0.7.0
  ## Analysis
  
  The analysis process was broken down into
